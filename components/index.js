@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 import { TypingText, TitleText } from './CustomTexts';
 import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
