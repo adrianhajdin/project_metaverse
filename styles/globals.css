@@ -13,13 +13,13 @@
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    rgb(225, 193, 35) 0%,
+      rgb(234, 226, 138) 26%,
+      rgb(228, 244, 194) 39%,
+      rgb(246, 253, 206) 50%,
+    rgb(242, 244, 169) 61%,
+    rgb(230, 234, 123) 74%,
+    rgb(181, 225, 35) 100%
   );
   filter: blur(125px);
 }
@@ -102,6 +102,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #e6fa65;
   filter: blur(150px);
 }

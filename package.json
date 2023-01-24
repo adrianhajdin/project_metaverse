@@ -14,7 +14,8 @@
     "framer-motion": "^7.6.7",
     "next": "13.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@nextui-org/react": "^1.0.0-beta.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
