@@ -16,17 +16,17 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Track Your Trades From Anywhere " textStyles="text-center" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>
+            PsyDTrader makes it easy to stay on top of your trades and make informed decisions. 
           </>
         )}
         textStyles="text-center"
       />
 
-      <motion.div
+      {/* <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
@@ -43,7 +43,7 @@ const World = () => (
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   </section>
 );

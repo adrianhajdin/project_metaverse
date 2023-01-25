@@ -6,6 +6,9 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+  "next",
+   "prettier"
+
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -26,6 +29,8 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 0,
     'no-nested-ternary': 0,
     'consistent-return': 0,
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     'no-alert': 0,
     'react/jsx-no-constructed-context-values': 0,
     'import/extensions': 0,
