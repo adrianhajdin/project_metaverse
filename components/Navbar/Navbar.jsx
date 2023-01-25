@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import { Dropdown, Link, Navbar, Text, useTheme } from '@nextui-org/react';
 
@@ -8,21 +7,10 @@ import { icons } from '../../assert/icons';
 
 import { Layout } from './Layout';
 
-export default function NavbarItem() {
+export const NavbarItem = () => {
 
   const { isDark } = useTheme();
-  const [activeColor, setActiveColor] = React.useState("primary");
-  const colors = ["primary", "secondary", "success", "warning", "error"];
 
-  const variants = [
-    "default",
-    "highlight",
-    "highlight-solid",
-    "underline",
-    "highlight-rounded",
-    "highlight-solid-rounded",
-    "underline-rounded",
-  ];
   const collapseItems = ['About Us', 'Products', 'FAQs', 'Sign In', 'Sign Out'];
 
   return (
@@ -41,8 +29,6 @@ export default function NavbarItem() {
           </Text>
         </Navbar.Brand>
         <Navbar.Content
-          // variant={variant}
-          // activeColor={activeColor}
           enableCursorHighlight
           activeColor='warning'
           hideIn='xs'
@@ -134,14 +120,14 @@ export default function NavbarItem() {
         </Navbar.Content>
 
         <Navbar.Collapse>
-          {collapseItems.map((item, index) => (
+          {collapseItems.map((item,) => (
             <Navbar.CollapseItem key={item}>
               <Link
                 color='inherit'
                 css={{
                   minWidth: '100%',
                 }}
-                href='#'
+                href='/'
               >
                 {item}
               </Link>
@@ -158,7 +144,6 @@ export default function NavbarItem() {
         >
           <Navbar.Item>
             <MyStyledButton
-            myc
              className=' bg-[#B89F1B]' auto size='mysize'>
               Sign In
             </MyStyledButton>
