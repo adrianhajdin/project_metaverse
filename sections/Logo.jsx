@@ -27,7 +27,7 @@ const Logo = () => (
           className=" w-full  sm:h-[650px] h-[550px] object-cover rounded-tl-[20px] z-10 relative"
         />
       </a>
-      </motion.div>
+    </motion.div>
     </motion.div>
     <div className="flex justify-center -top-48 items-center flex-col relative z-10">
       <motion.h1 variants={textVariant(4)} className={styles.heroHeading}>

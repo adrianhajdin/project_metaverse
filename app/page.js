@@ -1,14 +1,12 @@
-import { Footer, Navbar } from "../components";
+import { Footer, Navbar } from '../components';
 import {
   Games,
   Explore,
-  Feedback,
   GetStarted,
   Logo,
-  Insights,
   WhatsNew,
   World,
-} from "../sections";
+} from '../sections';
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -25,11 +23,7 @@ const Page = () => (
       <WhatsNew />
     </div>
     <World />
-    <div className="relative">
-      <Insights />
-      <div className="gradient-04 z-0" />
-      <Feedback />
-    </div>
+    <div className="relative" />
     <Footer />
   </div>
 );
