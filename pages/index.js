@@ -1,6 +1,6 @@
 
 import { Footer, Navbar } from '../components';
-import { Games, Explore, Feedback, GetStarted, Logo, WhatsNew } from '../sections';
+import { Games, Explore, GetStarted, Logo, WhatsNew } from '../sections';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -10,7 +10,6 @@ const Home = () => (
     <WhatsNew />
     <Explore />
     <GetStarted />
-    <Feedback />
     <Footer />
   </div>
 );
