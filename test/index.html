@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/index.css">
+    <title>Housing</title>
+</head>
+<body>
+  <div id="nav">
+    <img id="icon" src="https://illustoon.com/photo/5410.png" alt="" srcset="">
+    <h2>Housing</h2>
+  </div>
+  <div id="form-full">
+    <div id="head">
+      <h1>Housing Unit</h1>
+    </div>
+   <form action="{{url_for('predict')}}" method="post" id="form">
+      <div class="row">
+      <div class="item col-6" >
+       <p>Enter the area</p>
+         <input type="number" name="area" id="area" class="box">
+      </div>
+      <div class="item col-6">
+       <p>Enter the bedrooms</p>
+        <select name="bedrooms" id="bedrooms" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+      </select>
+      </div>
+       <div class="item col-6">
+       <p>Enter the bathrooms</p>
+       <select name="bathrooms" id="bathrooms" class="box">
+        <option selected disabled hidden>Select an Option</option>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+      </select>
+      </div>
+       <div class="item col-6">
+       <p>Enter the stories</p>
+       <select name="stories" id="stories" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+      </select>
+      </div>
+       <div class="item col-6">
+       <p>Enter the mainroad</p>
+       <select name="mainroad" id="mainroad" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+        <option value=1>Yes</option>
+        <option value=0>No</option>
+      </select>
+    </div>
+      <div class="item col-6">
+      <p>Enter the guestroom</p>
+      <select name="guestroom" id="guestroom" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+       <option value=1>Yes</option>
+       <option value=0>No</option>
+     </select>
+    </div>
+     <div class="item col-6">
+     <p>Enter the basement</p>
+     <select name="basement" id="basement" class="box">
+      <option  selected disabled hidden>Select an Option</option>
+      <option value=1>Yes</option>
+      <option value=0>No</option>
+    </select>
+  </div>
+    <div class="item col-6">
+    <p>Enter the hotwaterheating</p>
+      <select name="hotwaterheating" id="hotwaterheating" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+       <option value= 1 >Yes</option>
+       <option value= 0 >No</option>
+     </select>
+    </div>
+     <div class="item col-6">
+     <p>Enter the airconditioning</p>
+      <select name="airconditioning" id="airconditioning" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+       <option value= 1 >Yes</option>
+       <option value= 0 >No</option>
+     </select>
+    </div>
+     <div class="item col-6">
+       <p>Enter the parking</p>
+       <select name="parking" id="parking" class="box">
+        <option selected disabled hidden>Select an Option</option>
+        <option value= 1 >1</option>
+        <option value= 2 >2</option>
+        <option value= 3 >3</option>
+        <option value= 4 >4</option>
+      </select>
+      </div>
+       <div class="item col-6">
+       <p>Enter the prefarea</p>
+       <select name="prefarea" id="prefarea" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+        <option value=1>Yes</option>
+        <option value=0>No</option>
+      </select>
+    </div>
+      <div class="item col-6">
+      <p>Enter the furnishingstatus</p>
+       <select name="furnishingstatus" id="furnishingstatus" class="box">
+        <option  selected disabled hidden>Select an Option</option>
+        <option value=0>Furnished</option>
+        <option value=0.5>Semi-furnished</option>
+        <option value=1>Unfurnished</option>
+      </select>
+    </div>
+      <br><br><button id="btn" type="submit">Predict Price</button>
+    </div>
+    </form>
+  
+    <div id="result">
+      <h3><b>{{prediction_test}}</b></h3>
+  </div>
+</div>
+</body>
+</html>
