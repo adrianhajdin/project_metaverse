@@ -15,16 +15,22 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Metaverse
+        <motion.div
+          variants={textVariant(1.2)}
+          className="flex flex-row justify-center items-center"
+        >
+          <div className={styles.heroDText} />
+          <h1 className={styles.heroHeading}>EVELOPER</h1>
+        </motion.div>
+        <motion.h1 variants={textVariant(1.2)} className={styles.heroHeading}>
+          <h1 className={styles.heroHeading}>&</h1>
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>Ma</h1>
           <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>Ness</h1>
+          <h1 className={styles.heroHeading}>ESIGNER</h1>
         </motion.div>
       </div>
 
@@ -35,7 +41,7 @@ const Hero = () => (
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
         <img
-          src="/cover.png"
+          src="/cover-1.png"
           alt="hero_cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
