@@ -34,16 +34,67 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/vscode.png',
+    title: 'Visual Studio code',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        "Je l'utilise la plupart du temps lorsque je code en Javascript (ReactJS ou React Native)",
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/intellij.svg',
+    title: 'IntelliJ',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        "Je programme parfois en PHP. Je développe principalement sur IntelliJ.",
+  },
+  {
+    imgUrl: '/telegram.svg',
+    title: 'Télégram',
+    subtitle:
+        'Multi-plateforme, je suis un grand fan de télégram pour mes chats et mes appels sécurisés.',
+  },
+  {
+    imgUrl: '/brave.svg',
+    title: 'Brave',
+    subtitle:
+        "J'utilise Brave pour le développement et la navigation générale.",
+  },
+  {
+    imgUrl: '/slack.png',
+    title: 'Slack',
+    subtitle:
+        "J'utilise Slack pour gérer mes différents groupes de travail et mon équipe pour une meilleure organisation",
+  },
+  {
+    imgUrl: '/github.png',
+    title: 'Github',
+    subtitle:
+        'Je garde tous mes dépôts publics et privés sur GitHub, et je le fais depuis bien avant que ce soit gratuit.',
+  },
+];
+
+export const newDesign = [
+  {
+    imgUrl: '/illustrator.svg',
+    title: 'Illustrator',
+    subtitle:
+        "Pour réaliser mes logos, illustrations et concevoir certains motifs, je ne me lasse pas de cet outil. Pour moi c'est le meilleur logiciel vectoriel.",
+  },
+  {
+    imgUrl: '/Figma.svg',
+    title: 'Figma',
+    subtitle:
+        "Figma est comme Sketch mais un million de fois plus performant et multiplateforme. C'est l'application Web la plus impressionnante que j'ai jamais utilisée.",
+  },
+  {
+    imgUrl: '/color-slurp.svg',
+    title: 'ColorSlurp',
+    subtitle:
+        "Excellent petit outil de sélection de couleurs pour saisir une couleur de n'importe où sur votre écran.",
+  },
+  {
+    imgUrl: '/svgomg.svg',
+    title: 'SVGOMG',
+    subtitle:
+        "Tellement bon pour optimiser rapidement les SVG. J'utilise SVG partout dans mes projets et je finis par utiliser cet outil plusieurs fois par semaine.",
   },
 ];
 
