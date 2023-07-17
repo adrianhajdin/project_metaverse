@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Fournir une solution respectant les règles de gestion établies',
+  'Être à la hauteur des attentes du client',
+  "Vivre ma passion comme je l'entend",
 ];
 
 export const newFeatures = [
@@ -49,22 +49,25 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: 'https://res.cloudinary.com/dqdq4c1c8/image/upload/v1686059767/restshop_zw2vrn.png',
+    title: 'Application de gestion des restaurants',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Gestion des réservations, des commandes, payement et achat de produits en ligne.',
+    link: 'https://restshop.vercel.app',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: 'https://res.cloudinary.com/dqdq4c1c8/image/upload/v1686059216/Sans_titre_rkmlgn.png',
+    title: 'Annuaire pour entreprises',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Elle permet de référencer les entreprises dans le but de promouvoir leurs différents services',
+        link: 'https://registration-entreprise.vercel.app',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: 'https://res.cloudinary.com/dqdq4c1c8/image/upload/v1689598872/chat_nfzann.png',
+    title: 'Application de messagerie à temps réel',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Mini application de messagerie instantanée. Chattez avec vos amis via cette mini application ',
+        link: 'http://chatapp.free.nf/ChatApp/',
   },
 ];
 

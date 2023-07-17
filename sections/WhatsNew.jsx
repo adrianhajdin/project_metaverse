@@ -20,8 +20,8 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| Whats new?" />
-        <TitleText title={<>What's new about Metaversus?</>} />
+        <TypingText title="| Mes compétences" />
+        <TitleText title={<>Mes domaines d'activités</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
