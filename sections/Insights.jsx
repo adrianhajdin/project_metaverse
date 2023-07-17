@@ -25,7 +25,7 @@ const Insights = () => (
       </div>
       <a 
         href="https://github.com/wilson635/"
-        target='_blank'
+        target='_blank' rel="noreferrer"
       >
         <TypingText title="|Voir plus →" textStyles="text-center" />
       </a>
