@@ -23,11 +23,9 @@ const InsightCard = ({ imgUrl, title, subtitle, link,  index }) => (
           {subtitle}
         </p>
       </div>
-
-      <a href={link} target='_blank' rel="noreferrer"
+      <a href={link} target="_blank" rel="noreferrer"
         className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white"
       >
-        
         <img
           src="/arrow.svg"
           alt="arrow"
