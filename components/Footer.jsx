@@ -31,7 +31,7 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <img src="/SSII-1.png" alt="footer" className="w-14 h-14"/>
+          <img src="/SSII-1.png" alt="footer" className="w-14 h-14" />
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 SSII-Services. All rights reserved.
           </p>
