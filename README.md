@@ -4,4 +4,5 @@
 
 ![Chat Application](https://i.ibb.co/sbSHWH0/Thumbnail-1.png)
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
+### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
