@@ -27,44 +27,98 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Fournir une solution respectant les règles de gestion établies',
+  'Être à la hauteur des attentes du client',
+  "Vivre ma passion comme je l'entend",
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/vscode.png',
+    title: 'Visual Studio code',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        "Je l'utilise la plupart du temps lorsque je code en Javascript (ReactJS ou React Native)",
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/intellij.svg',
+    title: 'IntelliJ',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        "Je programme parfois en PHP. Je développe principalement sur IntelliJ.",
+  },
+  {
+    imgUrl: '/telegram.svg',
+    title: 'Télégram',
+    subtitle:
+        'Multi-plateforme, je suis un grand fan de télégram pour mes chats et mes appels sécurisés.',
+  },
+  {
+    imgUrl: '/brave.svg',
+    title: 'Brave',
+    subtitle:
+        "J'utilise Brave pour le développement et la navigation générale.",
+  },
+  {
+    imgUrl: '/slack.png',
+    title: 'Slack',
+    subtitle:
+        "J'utilise Slack pour gérer mes différents groupes de travail et mon équipe pour une meilleure organisation",
+  },
+  {
+    imgUrl: '/github.png',
+    title: 'Github',
+    subtitle:
+        'Je garde tous mes dépôts publics et privés sur GitHub, et je le fais depuis bien avant que ce soit gratuit.',
+  },
+];
+
+export const newDesign = [
+  {
+    imgUrl: '/illustrator.svg',
+    title: 'Illustrator',
+    subtitle:
+        "Pour réaliser mes logos, illustrations et concevoir certains motifs, je ne me lasse pas de cet outil. Pour moi c'est le meilleur logiciel vectoriel.",
+  },
+  {
+    imgUrl: '/Figma.svg',
+    title: 'Figma',
+    subtitle:
+        "Figma est comme Sketch mais un million de fois plus performant et multiplateforme. C'est l'application Web la plus impressionnante que j'ai jamais utilisée.",
+  },
+  {
+    imgUrl: '/color-slurp.svg',
+    title: 'ColorSlurp',
+    subtitle:
+        "Excellent petit outil de sélection de couleurs pour saisir une couleur de n'importe où sur votre écran.",
+  },
+  {
+    imgUrl: '/svgomg.svg',
+    title: 'SVGOMG',
+    subtitle:
+        "Tellement bon pour optimiser rapidement les SVG. J'utilise SVG partout dans mes projets et je finis par utiliser cet outil plusieurs fois par semaine.",
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: 'https://res.cloudinary.com/dqdq4c1c8/image/upload/v1686059767/restshop_zw2vrn.png',
+    title: 'Application de gestion des restaurants',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Gestion des réservations, des commandes, payement et achat de produits en ligne.',
+    link: 'https://restshop.vercel.app',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: 'https://res.cloudinary.com/dqdq4c1c8/image/upload/v1686059216/Sans_titre_rkmlgn.png',
+    title: 'Annuaire pour entreprises',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Elle permet de référencer les entreprises dans le but de promouvoir leurs différents services',
+        link: 'https://registration-entreprise.vercel.app',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: 'https://res.cloudinary.com/dqdq4c1c8/image/upload/v1689598872/chat_nfzann.png',
+    title: 'Application de messagerie à temps réel',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Mini application de messagerie instantanée. Chattez avec vos amis via cette mini application ',
+        link: 'http://chatapp.free.nf/ChatApp/',
   },
 ];
 
