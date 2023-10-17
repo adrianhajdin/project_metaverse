@@ -15,7 +15,7 @@ const styles = {
 
   // hero section
   heroHeading:
-      'font-bold lg:text-[100px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white'
+      'font-bold lg:text-[100px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[118.4px] md:leading-[74.4px] sm:leading-[34.4px] leading-[24.4px] uppercase text-white'
 };
 
 export default styles;
