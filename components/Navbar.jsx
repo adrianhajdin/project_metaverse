@@ -21,7 +21,7 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-black">
         금요주식회
       </h2>
       <img

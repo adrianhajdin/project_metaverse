@@ -22,10 +22,10 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">원하는 주식 정보</span>
+        <span className="font-extrabold text-black">원하는 주식 정보</span>
         를 한 눈에 살펴보세요. <br/>{' '}
         이제껏 경험 못 했던 {' '}
-        <span className="font-extrabold text-white">나만의 주식 비서,</span><br/> {' '}
+        <span className="font-extrabold text-black">나만의 주식 비서,</span><br/> {' '}
         금요주식회와 함께라면 당신의 주식 생활이 새로워질 거예요.
       </motion.p>
 
