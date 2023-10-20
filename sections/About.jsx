@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-black"
       >
         <span className="font-extrabold text-black">원하는 주식 정보</span>
         를 한 눈에 살펴보세요. <br/>{' '}

@@ -21,7 +21,7 @@ const Footer = () => (
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
-            src="/headset.svg"
+            src="/puzzle.png"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />

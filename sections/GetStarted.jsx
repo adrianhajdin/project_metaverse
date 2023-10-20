@@ -31,7 +31,7 @@ const GetStarted = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| 어떻게 하면 되나면요," />
-        <TitleText title={<>조금의 클릭만으로 시작할 수 있어요.</>} />
+        <TitleText title={<>조금의 클릭만으로<br/> 시작할 수 있어요.</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

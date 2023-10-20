@@ -34,13 +34,13 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/eye.png',
     title: '정보를 한 눈에',
     subtitle:
         '최근 주식 동향부터 뉴스까지, 한 눈에 보여드려요',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/ai.png',
     title: '양질의 정보를',
     subtitle:
         'chatGPT와 직접 개발한 기술을 활용하여 양질의 정보만 보여드려요',
