@@ -19,10 +19,10 @@ const Footer = () => (
         <h4 className="font-bold md:text-[50px] text-[44px] text-black">
            주식을 누구에게나 쉽게
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#323F5D] rounded-[32px] gap-[12px]">
           <img
             src="/puzzle.png"
-            alt="headset"
+            alt="puzzle"
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">

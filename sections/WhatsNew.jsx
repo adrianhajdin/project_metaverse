@@ -22,7 +22,7 @@ const WhatsNew = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| 간편함에 유용함까지" />
-        <TitleText title={<>왜 금요주식회를 활용해봐야 하냐고요?</>} />
+        <TitleText title={<>왜 금요주식회를<br/> 활용해봐야 하냐고요?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
