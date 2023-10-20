@@ -10,6 +10,7 @@
   scroll-behavior: smooth;
 }
 
+/* 어딘지 모르겠으나 티는 잘 안남 */
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
@@ -24,6 +25,7 @@
   filter: blur(125px);
 }
 
+/* 첫번째 창 띠 */
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
@@ -33,6 +35,7 @@
   );
 }
 
+/* 두번째 하단 그라데이션 */
 .gradient-02 {
   position: absolute;
   width: 200px;
@@ -44,6 +47,7 @@
   filter: blur(190px);
 }
 
+/* 세번째 다섯가지 기업칸 아이콘 색상 */
 .glassmorphism {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
@@ -52,6 +56,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* 세번째 배경 그라데이션 */
 .gradient-03 {
   position: absolute;
   width: 404px;
@@ -64,6 +69,7 @@
   transform: rotate(-114.2deg);
 }
 
+/* 어딘지 모르겠음 ㅎ */
 .gradient-04 {
   position: absolute;
   width: 304px;
@@ -76,14 +82,16 @@
   transform: rotate(-53.13deg);
 }
 
+/* 삭제 예정 : 마지막칸 사만다 */
 .gradient-05 {
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.989) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(172, 168, 168, 0.04) 0%,
+    rgba(255, 255, 255, 0) 100%
   );
 }
 
+/* 삭제예정 마지막 슬라이드 그라데이션 */ 
 .feedback-gradient {
   position: absolute;
   width: 200px;
@@ -95,6 +103,7 @@
   filter: blur(175px);
 }
 
+/* footer 그라데이션 */
 .footer-gradient {
   position: absolute;
   width: 500px;
