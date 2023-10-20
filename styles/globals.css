@@ -82,27 +82,6 @@
   transform: rotate(-53.13deg);
 }
 
-/* 삭제 예정 : 마지막칸 사만다 */
-.gradient-05 {
-  background: linear-gradient(
-    180deg,
-    rgba(172, 168, 168, 0.04) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-/* 삭제예정 마지막 슬라이드 그라데이션 */ 
-.feedback-gradient {
-  position: absolute;
-  width: 200px;
-  height: 316px;
-  left: 0px;
-  top: 0px;
-
-  background: #8d39a3;
-  filter: blur(175px);
-}
-
 /* footer 그라데이션 */
 .footer-gradient {
   position: absolute;
