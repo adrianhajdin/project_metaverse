@@ -76,7 +76,7 @@ const SearchBarInput = styled.input`
   left : -20px;
   height: 32px;
   margin: 2px 0 0 59px;
-  background-color:transparent;
+  background-color: white;
   border: 2px solid white;
 `;
 
