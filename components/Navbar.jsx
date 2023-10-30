@@ -1,18 +1,77 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import React, { useState } from "react";
+import React, { useEffect, useState } from 'react'
 import styled from "styled-components";
 
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
+
+/* 검색을 위한 배열로, API 사용 후 삭제 */
+const wholeTextArray = [
+  'apple',
+  'banana',
+  'coding',
+  'javascript',
+  '원티드',
+  '프리온보딩',
+  '프론트엔드',
+]
+
 const Navbar = () => {
   const [searchHiddenBar, setSearchHiddenBar] = useState(true);
+  const [inputValue, setInputValue] = useState('')
+  const [isHaveInputValue, setIsHaveInputValue] = useState(false)
+  const [dropDownList, setDropDownList] = useState(wholeTextArray)
+  const [dropDownItemIndex, setDropDownItemIndex] = useState(-1)
 
   const handleSearch = () => {
     setSearchHiddenBar(searchHiddenBar => !searchHiddenBar);
   };
+
+  const showDropDownList = () => {
+    if (inputValue === '') {
+      setIsHaveInputValue(false)
+      setDropDownList([])
+    } else {
+      const choosenTextList = wholeTextArray.filter(textItem =>
+        textItem.includes(inputValue)
+      )
+      setDropDownList(choosenTextList)
+    }
+  }
+
+  const changeInputValue = event => {
+    setInputValue(event.target.value)
+    setIsHaveInputValue(true)
+  }
+
+  const clickDropDownItem = clickedItem => {
+    setInputValue(clickedItem)
+    setIsHaveInputValue(false)
+  }
+
+  const handleDropDownKey = event => {
+    //input에 값이 있을때만 작동
+    if (isHaveInputValue) {
+      if (
+        event.key === 'ArrowDown' &&
+        dropDownList.length - 1 > dropDownItemIndex
+      ) {
+        setDropDownItemIndex(dropDownItemIndex + 1)
+      }
+
+      if (event.key === 'ArrowUp' && dropDownItemIndex >= 0)
+        setDropDownItemIndex(dropDownItemIndex - 1)
+      if (event.key === 'Enter' && dropDownItemIndex >= 0) {
+        clickDropDownItem(dropDownList[dropDownItemIndex])
+        setDropDownItemIndex(-1)
+      }
+    }
+  }
+
+  useEffect(showDropDownList, [inputValue])
 
   return(
   <motion.nav
@@ -31,11 +90,38 @@ const Navbar = () => {
               alt="search"
               className="w-[24px] h-[24px] object-contain" onClick={handleSearch}/>
             ) : (
-              <SearchBar>
+              <SearchBar isHaveInputValue={isHaveInputValue}>
                 <img src="/search.svg" alt="search" className="w-[24px] h-[24px] object-contain" onClick={handleSearch} />
-                <SearchBarInput />
+                <SearchBarInput 
+                  type='text'
+                  value={inputValue}
+                  onChange={changeInputValue}
+                  onKeyUp={handleDropDownKey}
+                />
+                <DeleteButton onClick={() => setInputValue('')}>&times;</DeleteButton>
               </SearchBar>
           )}
+          {isHaveInputValue && (
+        <DropDownBox>
+          {dropDownList.length === 0 && (
+            <DropDownItem>해당하는 단어가 없습니다</DropDownItem>
+          )}
+          {dropDownList.map((dropDownItem, dropDownIndex) => {
+            return (
+              <DropDownItem
+                key={dropDownIndex}
+                onClick={() => clickDropDownItem(dropDownItem)}
+                onMouseOver={() => setDropDownItemIndex(dropDownIndex)}
+                className={
+                  dropDownItemIndex === dropDownIndex ? 'selected' : ''
+                }
+              >
+                {dropDownItem}
+              </DropDownItem>
+            )
+          })}
+        </DropDownBox>
+      )}
       </NavRightLayout>
       
       <NavMiddleLayout>
@@ -52,6 +138,9 @@ const Navbar = () => {
   </motion.nav>
   )
 };
+
+const activeBorderRadius = '16px 16px 0 0'
+const inactiveBorderRadius = '16px 16px 16px 16px'
 
 const NavRightLayout = styled.div`
   display: flex;
@@ -79,5 +168,37 @@ const SearchBarInput = styled.input`
   background-color: white;
   border: 2px solid white;
 `;
+
+const DeleteButton = styled.div`
+  cursor: pointer;
+  position: absolute;
+  left: 220px;
+  top: -2px;
+`
+
+const DropDownBox = styled.ul`
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 170px;
+  margin: 0 auto;
+  padding: 8px 0;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: none;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.3);
+  list-style-type: none;
+  z-index: 3;
+`
+
+const DropDownItem = styled.li`
+  padding: 0 16px;
+
+  &.selected {
+    background-color: lightgray;
+  }
+`
 
 export default Navbar;
