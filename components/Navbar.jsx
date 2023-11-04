@@ -8,22 +8,6 @@ import styled from "styled-components";
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
-
-/* 검색을 위한 배열로, API 사용 후 삭제 */
-const wholeTextArray = [
-  'apple',
-  'banana',
-  'coding',
-  'javascript',
-  '원티드',
-  '프리온보딩',
-  '프론트엔드',
-]
-
-
-
-
-
 const Navbar = () => {
   const [stocks, setStock] = useState(null)
 
@@ -36,7 +20,7 @@ const Navbar = () => {
   axios.get('http://49.50.167.250:8000/Company/getAllCompanies')
   .then((Response)=>{
     setStock(Response.data)
-    //console.log(stock)
+    console.log(stocks)
   })
   .catch((Error)=>{console.log(Error)})
 
