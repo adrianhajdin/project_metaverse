@@ -1,5 +1,6 @@
 'use client';
 
+import axios from 'axios'
 import { motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react'
 import styled from "styled-components";
@@ -19,12 +20,25 @@ const wholeTextArray = [
   '프론트엔드',
 ]
 
+
+
+
+
 const Navbar = () => {
-  const [searchHiddenBar, setSearchHiddenBar] = useState(true);
+  const [stocks, setStock] = useState(null)
+
+  const [searchHiddenBar, setSearchHiddenBar] = useState(true)
   const [inputValue, setInputValue] = useState('')
   const [isHaveInputValue, setIsHaveInputValue] = useState(false)
-  const [dropDownList, setDropDownList] = useState(wholeTextArray)
+  const [dropDownList, setDropDownList] = useState(stocks)
   const [dropDownItemIndex, setDropDownItemIndex] = useState(-1)
+
+  axios.get('http://49.50.167.250:8000/Company/getAllCompanies')
+  .then((Response)=>{
+    setStock(Response.data)
+    //console.log(stock)
+  })
+  .catch((Error)=>{console.log(Error)})
 
   const handleSearch = () => {
     setSearchHiddenBar(searchHiddenBar => !searchHiddenBar);
@@ -35,7 +49,8 @@ const Navbar = () => {
       setIsHaveInputValue(false)
       setDropDownList([])
     } else {
-      const choosenTextList = wholeTextArray.filter(textItem =>
+      const stock = stocks.map(stock => stock.companyShortName)
+      const choosenTextList = stock.filter(textItem =>
         textItem.includes(inputValue)
       )
       setDropDownList(choosenTextList)
@@ -70,7 +85,6 @@ const Navbar = () => {
       }
     }
   }
-
   useEffect(showDropDownList, [inputValue])
 
   return(
