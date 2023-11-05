@@ -3,6 +3,7 @@
 import axios from 'axios'
 import { motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react'
+import { useRouter } from "next/router";
 import styled from "styled-components";
 
 import styles from '../styles';
@@ -10,23 +11,28 @@ import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
   const [stocks, setStock] = useState(null)
-
   const [searchHiddenBar, setSearchHiddenBar] = useState(true)
   const [inputValue, setInputValue] = useState('')
   const [isHaveInputValue, setIsHaveInputValue] = useState(false)
   const [dropDownList, setDropDownList] = useState(stocks)
   const [dropDownItemIndex, setDropDownItemIndex] = useState(-1)
+  
 
   axios.get('http://49.50.167.250:8000/Company/getAllCompanies')
   .then((Response)=>{
     setStock(Response.data)
-    console.log(stocks)
+    //console.log(stocks)
   })
   .catch((Error)=>{console.log(Error)})
 
+  const router = useRouter();
+  
   const handleSearch = () => {
     setSearchHiddenBar(searchHiddenBar => !searchHiddenBar);
   };
+
+  const goToSearch = () => {
+  }
 
   const showDropDownList = () => {
     if (inputValue === '') {
@@ -96,6 +102,9 @@ const Navbar = () => {
                   onChange={changeInputValue}
                   onKeyUp={handleDropDownKey}
                 />
+                <SearchButton>
+                  <img src="/search.png" className="w-[24px] h-[24px] object-contain" onClick={() => router.push("/search")} />
+                </SearchButton>
                 <DeleteButton onClick={() => setInputValue('')}>&times;</DeleteButton>
               </SearchBar>
           )}
@@ -153,7 +162,7 @@ const NavMiddleLayout = styled.div`
 
 const SearchBar = styled.div`
   position: relative;
-  width: 200px;
+  width: 300px;
   height: 22px;
 `;
 
@@ -165,6 +174,13 @@ const SearchBarInput = styled.input`
   margin: 2px 0 0 59px;
   background-color: white;
   border: 2px solid white;
+`;
+
+const SearchButton = styled.div`
+  cursor: pointer;
+  position: absolute;
+  left: 240px;
+  top: 1px;
 `;
 
 const DeleteButton = styled.div`
