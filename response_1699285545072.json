@@ -1,0 +1,400 @@
+{
+  "company": {
+    "id": 20,
+    "companyCode": "352820",
+    "companyName": "하이브보통주",
+    "companyShortName": "하이브",
+    "stockListingDate": "2020/10/15",
+    "exchangeMarket": "KOSPI",
+    "stockType": "보통주",
+    "perValue": "500",
+    "numberOfStock": "41652097"
+  },
+  "themeReasonList": [
+    {
+      "theme": {
+        "id": 7,
+        "themeName": "AI(인공지능)",
+        "themeEtc": "162887"
+      },
+      "reason": "AI기반 가창 업체 '수퍼톤' 인수",
+      "newsList": [
+        {
+          "id": 31,
+          "newsTitle": "정부 24개 부처, '디지털 권리장전' 쟁점별 대응현황 점검",
+          "newsLink": "https://n.news.naver.com/mnews/article/003/0012177438?sid=105",
+          "newsOriginalLink": "http://www.newsis.com/view/?id=NISX20231030_0002501866&cID=13005&pID=13100",
+          "pubDate": "Mon, 30 Oct 2023 16:17:00 +0900",
+          "description": "인공지능(AI)의 저작권 침해, 디지털 격자, 개인정보 유출 등 디지털 기술 활성화 과정에서 불거지는 다양한 문제들을 범부처 차원에서 대응한다. 과학기술정보통신부는 '새로운 디지털 질서'의 기본방향으로 마련한... ",
+          "reason": null
+        },
+        {
+          "id": 32,
+          "newsTitle": "네이버, 생성형 AI로 ‘돈’ 번다…B2B 솔루션 공개",
+          "newsLink": "https://n.news.naver.com/mnews/article/243/0000052085?sid=105",
+          "newsOriginalLink": "https://economist.co.kr/article/view/ecn202310300029",
+          "pubDate": "Mon, 30 Oct 2023 17:08:00 +0900",
+          "description": "네이버가 생성형 인공지능(Generative AI) 기술을 활용해 본격적인 수익 창출에 나선다. 기업 간 거래(B2B) 솔루션을 대거 내놓으면서 시장 확장을 본격화했다. 네이버클라우드는 기업용 솔루션 2종 ‘클로바 스튜디오’와... ",
+          "reason": null
+        },
+        {
+          "id": 33,
+          "newsTitle": "삼성전자, 반도체 협력사와 원팀으로 인공지능 시대 준비한다",
+          "newsLink": "https://n.news.naver.com/mnews/article/421/0007140993?sid=102",
+          "newsOriginalLink": "https://www.news1.kr/articles/5214459",
+          "pubDate": "Mon, 30 Oct 2023 09:45:00 +0900",
+          "description": "인공지능(AI)으로 바뀔 반도체 산업현장에 대한 고민을 삼성전자(005930)와 협력사가 함께 해결해 나간다. 삼성전자는 최근 수원 삼성전자 상생협력아카데미에서 DS 협력사 CEO들을 초빙해 'AI(인공지능) 세미나'를... ",
+          "reason": null
+        },
+        {
+          "id": 34,
+          "newsTitle": "인텔·네이버 엔비디아 AI칩 대체재 찾았다",
+          "newsLink": "https://n.news.naver.com/mnews/article/015/0004908326?sid=101",
+          "newsOriginalLink": "https://www.hankyung.com/article/2023103090891",
+          "pubDate": "Mon, 30 Oct 2023 18:33:00 +0900",
+          "description": "네이버와 인텔이 인공지능(AI) 서비스에 활용되는 엔비디아의 그래픽처리장치(GPU)를 중앙처리장치(CPU)로 대체하는 데 성공했다. AI 서비스의 필수재로 꼽히는 GPU의 대체재를 찾은 국내 첫 사례다. 전 세계 AI... ",
+          "reason": null
+        },
+        {
+          "id": 35,
+          "newsTitle": "'AI 개인정보' 문제 해결 위해 민·관 뭉친다",
+          "newsLink": "https://n.news.naver.com/mnews/article/092/0002309644?sid=105",
+          "newsOriginalLink": "https://zdnet.co.kr/view/?no=20231030173605",
+          "pubDate": "Mon, 30 Oct 2023 17:49:00 +0900",
+          "description": "개인정보보호위원회는 30일 민간 전문가, 관계부처와 함께 ‘인공지능(AI) 프라이버시 민·관 정책협의회’ 출범식을 개최한다고 밝혔다. 민·관 협의회는 AI 편익과 위험성을 고려한 균형 있는 국내 규율체계를 마련하고... ",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "theme": {
+        "id": 33,
+        "themeName": "NFT(대체불가능토큰)",
+        "themeEtc": "160936"
+      },
+      "reason": "두나무와 전략적 파트너십을 맺고 NFT사업 진출",
+      "newsList": [
+        {
+          "id": 161,
+          "newsTitle": "인천히어로즈 NFT 1차 민팅 10분 만에 ‘완판’…12월에 2차 발행",
+          "newsLink": "https://n.news.naver.com/mnews/article/056/0011591922?sid=102",
+          "newsOriginalLink": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=7805281&ref=A",
+          "pubDate": "Mon, 30 Oct 2023 15:39:00 +0900",
+          "description": "인천시가 처음으로 시도한 도시 주도의 대체불가능토큰(NFT) 멤버십 프로젝트 ‘인천히어로즈’의 1차 민팅(발행)이 10분 만에 완판을 기록했습니다. 인천시는 지난 25일 오후 8시에 선착순으로 진행된 1차 민팅에 1... ",
+          "reason": null
+        },
+        {
+          "id": 162,
+          "newsTitle": "'환경토큰' 인천히어로즈 NFT 1차 민팅 10분만에 '완판'…12월 중 2차 발행",
+          "newsLink": "https://n.news.naver.com/mnews/article/421/0007140917?sid=102",
+          "newsOriginalLink": "https://www.news1.kr/articles/5214405",
+          "pubDate": "Mon, 30 Oct 2023 09:25:00 +0900",
+          "description": "인천시는 최초로 시도한 도시 주도의 대체불가능토큰(NFT) 멤버십 프로젝트 ‘인천히어로즈’의 1차 민팅(발행)이 10분만에 완판을 기록했다고 30일 밝혔다. 인천히어로즈는 인천시의 캐릭터인 점박이물범(애이니... ",
+          "reason": null
+        },
+        {
+          "id": 163,
+          "newsTitle": "인천히어로즈 NFT, 1차 민팅 10분 만에 완판…성공적 출발",
+          "newsLink": "https://n.news.naver.com/mnews/article/014/0005092955?sid=102",
+          "newsOriginalLink": "http://www.fnnews.com/news/202310301032174136",
+          "pubDate": "Mon, 30 Oct 2023 10:46:00 +0900",
+          "description": "인천시는 세계 최초로 시도한 도시 주도의 대체불가능토큰(NFT) 멥버쉽 프로젝트 ‘인천히어로즈(Incheon Heroes)’의 1차 민팅(대체불가능토큰(NFT)에서 블록체인 기술을 활용해 그림, 영상 등 디지털 콘텐츠에 대해... ",
+          "reason": null
+        },
+        {
+          "id": 164,
+          "newsTitle": "인천히어로즈 NFT, 1차 민팅 10분 만에 완판",
+          "newsLink": "http://www.incheonnews.com/news/articleView.html?idxno=414769",
+          "newsOriginalLink": "http://www.incheonnews.com/news/articleView.html?idxno=414769",
+          "pubDate": "Mon, 30 Oct 2023 14:32:00 +0900",
+          "description": "▲인천히어로즈 NFT 블록체인 기술 허브 도시 조성을 위해 다양한 노력을 펼치고 있는 인천시가 글로벌 최초로 시도한 도시 주도의 대체불가능토큰(NFT) 멥버쉽 프로젝트'인천히어로즈(Incheon Heroes)'의 1차 민팅이 10분... ",
+          "reason": null
+        },
+        {
+          "id": 165,
+          "newsTitle": "인천히어로즈 NFT, 1차 민팅 10분 만에 완판",
+          "newsLink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202310301049098640822",
+          "newsOriginalLink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202310301049098640822",
+          "pubDate": "Mon, 30 Oct 2023 11:02:00 +0900",
+          "description": "사전 신청자 7195명, NFT 1차 민팅 수량 1000개 매진 블록체인 기술 허브 도시 조성을 위해 다양한 노력을 펼치고 있는 인천시(시장 유정복)가 글로벌 최초로 시도한 도시 주도의 대체불가능토큰(NFT) 멥버쉽 프로젝트... ",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "theme": {
+        "id": 22,
+        "themeName": "엔터테인먼트",
+        "themeEtc": "150841"
+      },
+      "reason": "방탄소년단(BTS)을 보유한 글로벌 엔터테인먼트 업체. 아티스트의 발굴, 육성 및 음악 제작 등을 주요 사업으로 영위. 주요 아티스트로 방탄소년단(BTS), 투모로우바이투게더 등이 있음. 세븐틴, 뉴이스트 등을 보유한 ㈜플레디스엔터테인먼트, 여자친구 등을 보유한 ㈜쏘스뮤직 등을 종속기업으로 보유.",
+      "newsList": [
+        {
+          "id": 106,
+          "newsTitle": "첫 방송 시청률 7.2% 대박 아이템, JYP에서 KBS로 넘어간 이유",
+          "newsLink": "https://n.news.naver.com/mnews/article/015/0004908049?sid=106",
+          "newsOriginalLink": "https://www.hankyung.com/article/202310307428H",
+          "pubDate": "Mon, 30 Oct 2023 10:47:00 +0900",
+          "description": "이건 우리 회사(JYP엔터테인먼트)랑 전혀 관계 없어요. 우리 회사에서 하려면 이사회도 열어야 하고... 하지만 그가 대표 프로듀서로 있는 JYP엔터테인먼트와는 관련이 없다고 그 스스로 선을 그었다. 그러면서 우리... ",
+          "reason": null
+        },
+        {
+          "id": 107,
+          "newsTitle": "카카오 김범수 나부터 반성…준법경영·통제 시스템 마련",
+          "newsLink": "https://n.news.naver.com/mnews/article/001/0014296560?sid=105",
+          "newsOriginalLink": "https://www.yna.co.kr/view/AKR20231030095700017?input=1195m",
+          "pubDate": "Mon, 30 Oct 2023 14:20:00 +0900",
+          "description": "카카오 창업자인 김범수 카카오 미래이니셔티브 센터장은 30일 최근 SM엔터테인먼트 시세 조종 논란과 관련, 반성하고 준법 경영을 강화하겠다는 의지를 밝혔다. 김 센터장은 이날 주요 공동체 CEO 등 20여명이 참석한... ",
+          "reason": null
+        },
+        {
+          "id": 108,
+          "newsTitle": "시세조종 논란 김범수 나부터 반성…통제 시스템 마련",
+          "newsLink": "https://n.news.naver.com/mnews/article/448/0000433876?sid=101",
+          "newsOriginalLink": "http://news.tvchosun.com/site/data/html_dir/2023/10/30/2023103090141.html",
+          "pubDate": "Mon, 30 Oct 2023 15:52:00 +0900",
+          "description": "카카오 창업자인 김범수 미래이니셔티브 센터장이 최근 수사 대상이 된 SM엔터테인먼트 시세 조종 논란과 관련해 반성하고 준법 경영을 강화하겠다는 뜻을 밝혔다. 카카오는 오늘 오전 주요 공동체 CEO 등 20여명이 참석한... ",
+          "reason": null
+        },
+        {
+          "id": 109,
+          "newsTitle": "카카오 김범수 나부터 반성‥준법경영·통제 시스템 마련",
+          "newsLink": "https://n.news.naver.com/mnews/article/214/0001308496?sid=101",
+          "newsOriginalLink": "https://imnews.imbc.com/news/2023/econo/article/6538462_36140.html",
+          "pubDate": "Mon, 30 Oct 2023 14:36:00 +0900",
+          "description": "카카오 창업자인 김범수 전 이사회 의장은 최근 SM엔터테인먼트 시세 조종에 개입했다는 혐의를 받는 것과 관련해 반성하고 준법 경영을 강화하겠다는 의지를 밝혔습니다. 김 전 의장은 오늘 주요 공동체 CEO 등 20여 명이... ",
+          "reason": null
+        },
+        {
+          "id": 110,
+          "newsTitle": "에픽게임즈 & 레메디 엔터테인먼트, '앨런 웨이크 2' 출시",
+          "newsLink": "http://www.ilovepc.co.kr/news/articleView.html?idxno=48152",
+          "newsOriginalLink": "http://www.ilovepc.co.kr/news/articleView.html?idxno=48152",
+          "pubDate": "Mon, 30 Oct 2023 10:40:00 +0900",
+          "description": "레메디 엔터테인먼트가 '앨런 웨이크 2'를 에픽게임즈 스토어, 플레이스테이션 5, 엑스박스 시리즈 XlS를... 개발사 레메디 엔터테인먼트는 자체 개발한 노스라이트 엔진을 기반으로 최신 콘솔과 PC의 성능을 최대한... ",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "theme": {
+        "id": 67,
+        "themeName": "디지털 플랫폼",
+        "themeEtc": "163232"
+      },
+      "reason": "글로벌 팬 커뮤니티 플랫폼 Weverse( 위버스)를 론칭",
+      "newsList": [
+        {
+          "id": 331,
+          "newsTitle": "흑해연안 8개국, 한국서 디지털플랫폼정부 배운다",
+          "newsLink": "https://n.news.naver.com/mnews/article/003/0012175000?sid=102",
+          "newsOriginalLink": "http://www.newsis.com/view/?id=NISX20231027_0002499849&cID=10201&pID=10200",
+          "pubDate": "Sun, 29 Oct 2023 12:01:00 +0900",
+          "description": "흑해 연안 8개국이 우리나라의 디지털플랫폼정부 노하우를 배운다. 행정안전부와 외교부는 오는 30일부터 다음달 3일까지 닷새간 '제12차 흑해경제협력기구(BSEC) 디지털정부 초청연수'를 운영한다고 29일 밝혔다. BSEC는... ",
+          "reason": null
+        },
+        {
+          "id": 332,
+          "newsTitle": "[CFO 리포트] 독점지대와 디지털보험사의 미래",
+          "newsLink": "https://n.news.naver.com/mnews/article/293/0000048523?sid=101",
+          "newsOriginalLink": "https://www.bloter.net/news/articleView.html?idxno=607704",
+          "pubDate": "Mon, 30 Oct 2023 09:29:00 +0900",
+          "description": "그러나 플랫폼 기반의 디지털음반 시장으로 바뀌면서 음원 생산자로부터 유투브 등 플랫폼을 통해 언제든지 세계 어디서나 고객이 직접 구매하는 시스템이 구축된 것이다'. 디지털 보험사가 지향하는 궁극적 목표는... ",
+          "reason": null
+        },
+        {
+          "id": 333,
+          "newsTitle": "AI기반 지식공유플랫폼 클라썸, 직무 단위 학습 설계 기능 출시",
+          "newsLink": "https://n.news.naver.com/mnews/article/001/0014296652?sid=105",
+          "newsOriginalLink": "https://www.yna.co.kr/view/AKR20231030098200017?input=1195m",
+          "pubDate": "Mon, 30 Oct 2023 14:39:00 +0900",
+          "description": "공유 플랫폼 클라썸은 사외 콘텐츠와 사내 지식·노하우를 통합해 직무 단위로 유연하게 학습을 설계하는... 클라썸은 올해 상반기 인프런, HSG휴먼솔루션그룹 등 전문 콘텐츠 제공사와 제휴해 직무, 리더십, 디지털전환... ",
+          "reason": null
+        },
+        {
+          "id": 334,
+          "newsTitle": "경기도, 11월 2~4일 킨텍스서 ‘디지털 퓨처쇼’ 진행",
+          "newsLink": "https://n.news.naver.com/mnews/article/468/0000995389?sid=102",
+          "newsOriginalLink": "https://www.sportsseoul.com/news/read/1363979?ref=naver",
+          "pubDate": "Sun, 29 Oct 2023 17:33:00 +0900",
+          "description": "인프라’ △메타버스 플랫폼, 디지털트윈, 확장현실(XR) 게임 등 새로운 공간 경험 기술을 체험할 수 있는 ‘미래공간 재구성’ 등 주제별 전시 테마로 구성됐다. 세부적 콘텐츠로는 드론축구 시연, 자율주행 배달로봇... ",
+          "reason": null
+        },
+        {
+          "id": 335,
+          "newsTitle": "“디지털 약자 어르신, 스마트 생활 경로당에서 즐기세요 ”",
+          "newsLink": "https://n.news.naver.com/mnews/article/009/0005206899?sid=100",
+          "newsOriginalLink": "https://www.mk.co.kr/article/10861714",
+          "pubDate": "Mon, 30 Oct 2023 14:57:00 +0900",
+          "description": "시는 올해부터 디지털 약자인 어르신들을 위해 스마트경로당을 조성하고 있다. 이를 위해 서울형... 어르신 선호도가 높은 스마트테이블을 도입해 게임을 즐기고 화상플랫폼으로 다양한 여가생활을 할 수 있도록 한다.... ",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "theme": {
+        "id": 68,
+        "themeName": "음원서비스",
+        "themeEtc": "150842"
+      },
+      "reason": "아티스트의 발굴, 육성 및 음악 제작 등을 주요 사업으로 영위. 주요 아티스트로 방탄소년단(BTS), 투모로우바이투게더 등이 있음. 세븐틴, 뉴이스트 등을 보유한 ㈜플레디스엔터테인먼트, 여자친구 등을 보유한 ㈜쏘스뮤직 등을 종속기업으로 보유. 이 외 ㈜빅히트쓰리식스티, ㈜빅히트아이피, ㈜비엔엑스, ㈜수퍼브, ㈜빅히트에듀 등의 종속회사를 통해 공연 기획 및 대행, 음반/음원유통, 영상콘텐츠 제작 및 유통, 광고대행, MD 등의 사업 영위.",
+      "newsList": [
+        {
+          "id": 336,
+          "newsTitle": "음원 플랫폼 '플로', 25분간 서비스 접속 오류",
+          "newsLink": "https://n.news.naver.com/mnews/article/001/0014296030?sid=105",
+          "newsOriginalLink": "https://www.yna.co.kr/view/AKR20231030066800017?input=1195m",
+          "pubDate": "Mon, 30 Oct 2023 11:11:00 +0900",
+          "description": "음원 플랫폼 '플로'(FLO)에서 30일 오전 한때 접속 오류가 발생해 이용자들이 불편을 겪었다. 정보기술(IT) 업계에 따르면 이날 오전 8시 38분부터 25분간 서비스에 접속이 안 되는 현상이 발생했다. 플로를 운영하는... ",
+          "reason": null
+        },
+        {
+          "id": 337,
+          "newsTitle": "하나은행, 부동산·음원 등 조각투자 연계서비스 시작",
+          "newsLink": "https://n.news.naver.com/mnews/article/092/0002308908?sid=105",
+          "newsOriginalLink": "https://zdnet.co.kr/view/?no=20231024135036",
+          "pubDate": "Tue, 24 Oct 2023 13:56:00 +0900",
+          "description": "하나은행이 부동산·음원 저작권 등을 조각 투자할 수 있는 '하나원큐 조각투자 연계 서비스를' 25일 출시한다. 24일 하나은행은 '루센트블록'과 '뮤직카우'와 연계해 모바일 뱅킹 '하나원큐'를 통해 조각투자 신규 공모... ",
+          "reason": null
+        },
+        {
+          "id": 338,
+          "newsTitle": "영화 ‘진리에게’에 AI 음원분리 기술이 적용된 사연 [이지민의 스타트업 줌...",
+          "newsLink": "https://n.news.naver.com/mnews/article/022/0003869160?sid=101",
+          "newsOriginalLink": "http://www.segye.com/newsView/20231027514319?OutUrl=naver",
+          "pubDate": "Sat, 28 Oct 2023 08:03:00 +0900",
+          "description": "인공지능(AI) 오디오 전문 기업 가우디오랩의 음원 분리 AI 기술이 이를 해결했다. 영화 사운드 작업을... 회사 서비스에 이미 적용돼 있다.” ─가우디오랩이 몸담은 산업의 현재와 전망은. “미디어 시장은 영화, 방송... ",
+          "reason": null
+        },
+        {
+          "id": 339,
+          "newsTitle": "음원 시장 이제 50대가 이끈다....저출산·고령화가 바꾼 팬덤문화 [앵커리포...",
+          "newsLink": "https://n.news.naver.com/mnews/article/052/0001951570?sid=102",
+          "newsOriginalLink": "https://www.ytn.co.kr/_ln/0103_202310251713597460",
+          "pubDate": "Wed, 25 Oct 2023 17:13:00 +0900",
+          "description": "한국 문화관광연구원이 지난 10년 동안 '모바일 음악 콘텐츠 이용 시간의 변화'를 분석해 발표한 결과, 지난해 50대의 모바일 기기 음원 서비스 이용 시간은 19억 8천만 분으로 집계됐습니다. 지금까지 모바일 음악, 혹은... ",
+          "reason": null
+        },
+        {
+          "id": 340,
+          "newsTitle": "하나은행, 하나원큐 조각투자 연계 서비스",
+          "newsLink": "https://n.news.naver.com/mnews/article/003/0012164570?sid=101",
+          "newsOriginalLink": "http://www.newsis.com/view/?id=NISX20231024_0002493888&cID=15001&pID=15000",
+          "pubDate": "Tue, 24 Oct 2023 09:19:00 +0900",
+          "description": "하나은행에 따르면 하나원큐 조각투자 연계 서비스는 모바일 앱 하나원큐에서 부동산·음원 등에 대한 조각투자 신규 공모 소식을 빠르게 접할 수 있다. 해당 상품을 판매하는 조각투자사로 간편하게 접속할 수 있다.... ",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "theme": {
+        "id": 69,
+        "themeName": "NFT(대체불가능토큰) - 금융",
+        "themeEtc": "166515"
+      },
+      "reason": "두나무와 전략적 파트너십을 맺고 NFT사업 진출",
+      "newsList": [
+        {
+          "id": 341,
+          "newsTitle": "인천 송도서 글로벌 블록체인 컨퍼런스 열린다…NFT도 현장 발급",
+          "newsLink": "https://n.news.naver.com/mnews/article/003/0012164506?sid=102",
+          "newsOriginalLink": "http://www.newsis.com/view/?id=NISX20231024_0002493671&cID=10802&pID=14000",
+          "pubDate": "Tue, 24 Oct 2023 08:50:00 +0900",
+          "description": "디지털 금융의 글로벌 기업 ‘크립토닷컴 한국 대표 패트릭 윤(Patric Yun)’이와 웹3.0 기술과 도시에 대한... 제작된 대체불가능토큰(NFT)을 발급받고 블록체인 기술이 접목된 게임을 체험해 볼 수 있다. 현재 컨퍼런스... ",
+          "reason": null
+        },
+        {
+          "id": 342,
+          "newsTitle": "카드사, 디지털 자산 기본법 제정 앞두고 NFT 새 사업 먹거리 낙점",
+          "newsLink": "https://www.news2day.co.kr/article/20231023500194",
+          "newsOriginalLink": "https://www.news2day.co.kr/article/20231023500194",
+          "pubDate": "Tue, 24 Oct 2023 07:42:00 +0900",
+          "description": "신한은행, BC카드 사옥 [사진=각 사] 지난해 정부의 제동으로 잠잠하던 NFT((Non-Fungible Token, 대체불가능토큰)... 이번 멤버십NFT는 지난해 7월 이마트24, 그라운드엑스와 함께 얼라이언스 GRID(그리드)를 구축하고, 금융... ",
+          "reason": null
+        },
+        {
+          "id": 343,
+          "newsTitle": "[2024 테크 퀘스트] “재벌3세 사칭, 웹 3.0에선 불가능”…업계 ‘신뢰’ 더...",
+          "newsLink": "https://www.etoday.co.kr/news/view/2296413",
+          "newsOriginalLink": "https://www.etoday.co.kr/news/view/2296413",
+          "pubDate": "Thu, 26 Oct 2023 17:00:00 +0900",
+          "description": "위ㆍ변조가 불가능한 대체불가능토큰(NFT)로 각종 증명서나 졸업장 등을 보장할 수 있다는 설명이다. 이밖에도 가상자산, 블록체인 등 시장이 신뢰를 얻기 위해서는 전통 금융의 역할이 필요하다는 주장도 제기됐다.... ",
+          "reason": null
+        },
+        {
+          "id": 344,
+          "newsTitle": "카드업계, NFT 연계 사업 다각화 재시동",
+          "newsLink": "https://n.news.naver.com/mnews/article/092/0002307200?sid=105",
+          "newsOriginalLink": "https://zdnet.co.kr/view/?no=20231006131624",
+          "pubDate": "Mon, 09 Oct 2023 08:36:00 +0900",
+          "description": "지난해 금융당국의 요청으로 NFT(대체불가능토큰) 사업을 보류한 카드업계가 최근 다시 관련 사업들을 선보이고 있다. 9일 카드업계에 따르면, BC카드는 지난 4일 카드결제 연계형 NFT 발행 서비스를 출시했다. NFT는... ",
+          "reason": null
+        },
+        {
+          "id": 345,
+          "newsTitle": "토큰증권 시장 성공 위해선 인프라부터 잘 깔아야 [이코노 인터뷰]",
+          "newsLink": "https://n.news.naver.com/mnews/article/243/0000051458?sid=101",
+          "newsOriginalLink": "https://economist.co.kr/article/view/ecn202310100045",
+          "pubDate": "Mon, 16 Oct 2023 10:01:00 +0900",
+          "description": "“금융시스템은 하나의 ‘도시’이고 돈은 ‘자동차’다. 자동차가 잘 가기 위해선 도로와 신호등이... 이외에도 핀헤이븐은 ▲핀월렛(블록체인 기반의 지갑) ▲NFT(대체 불가능 토큰) ▲SBT(솔바운드토큰) ▲DID(분산... ",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "theme": {
+        "id": 70,
+        "themeName": "두나무",
+        "themeEtc": "160935"
+      },
+      "reason": "두나무 지분 2.48% 보유",
+      "newsList": [
+        {
+          "id": 346,
+          "newsTitle": "‘반짝’ 대기업 두나무 일장춘몽",
+          "newsLink": "https://n.news.naver.com/mnews/article/262/0000016937?sid=101",
+          "newsOriginalLink": "https://shindonga.donga.com/3/all/13/4504216/1",
+          "pubDate": "Mon, 30 Oct 2023 09:06:00 +0900",
+          "description": "27일 두나무는 공정거래위원회(공정위)로부터 상호출자제한기업집단(상출제한집단)으로 지정됐다. 이른바... 것은 두나무가 첫 사례다. 암호화폐 관련 기업 가운데 최초 대기업 진입이기도 하다. 영광은 오래가지... ",
+          "reason": null
+        },
+        {
+          "id": 347,
+          "newsTitle": "공공·복지에도…'블록체인' 선한 영향력 들여다본다",
+          "newsLink": "https://n.news.naver.com/mnews/article/092/0002309632?sid=105",
+          "newsOriginalLink": "https://zdnet.co.kr/view/?no=20231030113028",
+          "pubDate": "Mon, 30 Oct 2023 17:05:00 +0900",
+          "description": "두나무는 앞으로 더욱 다양한 측면에서 블록체인 생태계를 조명하고 확장한다는 계획이다. UDC 2022에서 연사들이 토론하고 있다. 한국수목원정원관리원은 올해 두나무, 람다256과... ",
+          "reason": null
+        },
+        {
+          "id": 348,
+          "newsTitle": "두나무 'UDC 2023', 블록체인 기술부터 트렌드·정책까지 확대",
+          "newsLink": "https://www.viva100.com/main/view.php?key=20231030010007748",
+          "newsOriginalLink": "https://www.viva100.com/main/view.php?key=20231030010007748",
+          "pubDate": "Mon, 30 Oct 2023 14:40:00 +0900",
+          "description": "두나무 'UDC 2023', 블록체인 기술부터 트렌드·정책까지 확대 ‘업비트 D 컨퍼런스(UDC)’가 블록체인 기술 중심 행사를 넘어 사회에 미치는 선한 영향력부터 관련 정책까지 들여다 보는 장으로 확대된다. 두나무는 제6회... ",
+          "reason": null
+        },
+        {
+          "id": 349,
+          "newsTitle": "재벌보다 낫네 청년의 꿈 키우는 두나무, UDC로 '블록체인 개발자' 전성시대...",
+          "newsLink": "https://www.techm.kr/news/articleView.html?idxno=116079",
+          "newsOriginalLink": "https://www.techm.kr/news/articleView.html?idxno=116079",
+          "pubDate": "Mon, 30 Oct 2023 10:52:00 +0900",
+          "description": "사진=두나무 두나무가 당면한 수익 사업 대신 개발자회의(UDC) 개최에 심혈을 기울이고 있어 주목된다. 어느덧 국내 최대 블록체인 개발 행사로 거듭난 UDC는 올해로 벌써 7회째를 맞는다. 어느덧 7회째...'블록체인'의... ",
+          "reason": null
+        },
+        {
+          "id": 350,
+          "newsTitle": "비트코인 상승했지만 거래소 주가 잠잠…거래량 폭증에도 반사효과 미미",
+          "newsLink": "https://www.etoday.co.kr/news/view/2297448",
+          "newsOriginalLink": "https://www.etoday.co.kr/news/view/2297448",
+          "pubDate": "Mon, 30 Oct 2023 17:04:00 +0900",
+          "description": "비트코인이 사상 최고치를 찍던 2021년 업비트 운영사 두나무 주식은 1주당 50만 원 선에서 거래되기도 했다. 비트코인 상승은 두나무 주식 거래량에는 영향을 끼친 모양새다. 비트코인 급등 전날인 23일 전체 비상장... ",
+          "reason": null
+        }
+      ]
+    }
+  ]
+}
