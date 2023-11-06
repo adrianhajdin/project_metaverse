@@ -31,9 +31,6 @@ const Navbar = () => {
     setSearchHiddenBar(searchHiddenBar => !searchHiddenBar);
   };
 
-  const goToSearch = () => {
-  }
-
   const showDropDownList = () => {
     if (inputValue === '') {
       setIsHaveInputValue(false)
@@ -103,7 +100,17 @@ const Navbar = () => {
                   onKeyUp={handleDropDownKey}
                 />
                 <SearchButton>
-                  <img src="/search.png" className="w-[24px] h-[24px] object-contain" onClick={() => router.push("/search")} />
+                  <img src="/search.png" className="w-[24px] h-[24px] object-contain" onClick={() => 
+                  router.push(
+                    {
+                    pathname: '/search',
+                    query: { 
+                      "stockName":inputValue
+                     },
+                  },
+                  `/search`
+                  )
+                  } />
                 </SearchButton>
                 <DeleteButton onClick={() => setInputValue('')}>&times;</DeleteButton>
               </SearchBar>
@@ -145,6 +152,8 @@ const Navbar = () => {
   </motion.nav>
   )
 };
+
+
 
 const activeBorderRadius = '16px 16px 0 0'
 const inactiveBorderRadius = '16px 16px 16px 16px'
