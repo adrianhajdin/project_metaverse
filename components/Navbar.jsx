@@ -17,13 +17,16 @@ const Navbar = () => {
   const [dropDownList, setDropDownList] = useState(stocks)
   const [dropDownItemIndex, setDropDownItemIndex] = useState(-1)
   
+  if( !stocks ){
+    axios.get('http://49.50.167.250:8000/Company/getAllCompanies')
+    .then((Response)=>{
+      setStock(Response.data)
+      console.log(stocks)
+    })
+    .catch((Error)=>{console.log(Error)})
+  }
 
-  axios.get('http://49.50.167.250:8000/Company/getAllCompanies')
-  .then((Response)=>{
-    setStock(Response.data)
-    //console.log(stocks)
-  })
-  .catch((Error)=>{console.log(Error)})
+  
 
   const router = useRouter();
   
