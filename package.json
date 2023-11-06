@@ -15,6 +15,7 @@
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "axios": "^1.6.0",
+    "child_process": "^1.0.2",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",

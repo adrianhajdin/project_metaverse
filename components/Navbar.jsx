@@ -153,8 +153,6 @@ const Navbar = () => {
   )
 };
 
-
-
 const activeBorderRadius = '16px 16px 0 0'
 const inactiveBorderRadius = '16px 16px 16px 16px'
 
