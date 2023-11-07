@@ -214,7 +214,7 @@ const DropDownBox = styled.ul`
   border-radius: 0 0 16px 16px;
   box-shadow: 0 10px 10px rgb(0, 0, 0, 0.3);
   list-style-type: none;
-  z-index: 3;
+  z-index: 13;
 `
 
 const DropDownItem = styled.li`
