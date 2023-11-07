@@ -54,12 +54,10 @@ const StockReport = () => {
           {companyCode}
         </motion.h1>
       </div>
+      </motion.div>
       
       
 
-
-    <section className={`${styles.paddings} relative z-10`}>
-    <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -72,23 +70,41 @@ const StockReport = () => {
       >
         <TypingText title="| 나만의 뉴스 추천" />
         <TitleText title={<>테마별 뉴스 📰</>} />
-        <div>
-          {wholeData.themeReasonList?.map((themeReason, i) => {
-              return (
-                <div key={i}>
-                  <p>What❓: {themeReason.theme.themeName}</p>
-                  <p>Why❓: {themeReason.reason}</p>
-                </div>
+
+        <div className="mt-[50px] flex flex-wrap lg:flex-column flex-column min-h-[70vh] gap-5">
+        {wholeData.themeReasonList?.map((themeReason, i) => {
+          return (
+          <div key={i} className="relative flex items-center justify-center w-full h-[300px] cursor-pointer">
+            <img
+              src="/news.png"
+              alt="news"
+              className="absolute w-full h-full object-cover rounded-[24px]"
+            />
+            <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-white rounded-b-[24px]">
+              <div className={`${styles.flexCenter} w-[60px] h-[70px] rounded-[24px] glassmorphism mb-[16px]`}>
+                <img
+                  src="/stocks.png"
+                  alt="stock"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+              <p className="font-normal text-[16px] leading-[2.16px] text-black uppercase">{themeReason.theme.themeName}</p>
+              <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-black">{themeReason.reason}</h2>
+            </div>
+          </div>
               );
             })}
         </div>
+        
+        
+
+
       </motion.div>
     </motion.div>
   </section>
       
 
-    </motion.div>
-  </section>
+    
   )
 };
 
