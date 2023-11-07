@@ -31,12 +31,9 @@ const StockReport = () => {
     getCompanyData();
   }, []);
 
-  console.log(wholeData)
-
-  const companyData = wholeData.company
-  const themeData = wholeData.themeReasonList
   const companyCode = wholeData.company?.companyCode
   //console.log(companyData['companyCode'])
+  console.log(wholeData)
   
 
   return(
@@ -58,6 +55,7 @@ const StockReport = () => {
         </motion.h1>
       </div>
       
+      
 
 
     <section className={`${styles.paddings} relative z-10`}>
@@ -73,11 +71,16 @@ const StockReport = () => {
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| 나만의 뉴스 추천" />
-        <TitleText title={<>추천 뉴스 📰</>} />
-        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map((feature) => (
-            <NewFeatures key={feature.title} {...feature} />
-          ))}
+        <TitleText title={<>테마별 뉴스 📰</>} />
+        <div>
+          {wholeData.themeReasonList?.map((themeReason, i) => {
+              return (
+                <div key={i}>
+                  <p>What❓: {themeReason.theme.themeName}</p>
+                  <p>Why❓: {themeReason.reason}</p>
+                </div>
+              );
+            })}
         </div>
       </motion.div>
     </motion.div>
@@ -89,9 +92,5 @@ const StockReport = () => {
   )
 };
 
-const DivisionLine = styled.div`
-  border-top: 10px solid #444444;
-  margin: 30px 0px;
-`;
  
 export default StockReport;
