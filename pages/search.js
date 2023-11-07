@@ -73,13 +73,47 @@ const StockReport = () => {
         {wholeData.themeReasonList?.map((themeReason, i) => {
           return(
             <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-            <div className="flex items-center justify-between flex-wrap gap-5">
-              <h4 className="font-bold md:text-[50px] text-[44px] text-black">
-                {<>{themeReason.theme.themeName}</>}
-              </h4>
+              <div className="flex items-center justify-between flex-wrap gap-5">
+                <h4 className="font-bold md:text-[50px] text-[44px] text-black">
+                  {<>{themeReason.theme.themeName}</>}
+                </h4>
+              </div>
+              {themeReason.newsList?.map((news, i) => {
+                return(
+                <>
+                  <motion.div
+                    variants={staggerContainer}
+                    viewport={{ once: false, amount: 0.25 }}
+                    className={`${styles.innerWidth} h-[200px] mx-auto flex lg:flex-row flex-col gap-8`}
+                  >
+                    <motion.div
+                      variants={fadeIn('right', 'tween', 0.2, 1)}
+                      className={`flex-1 ${styles.flexCenter}`}
+                    >
+                      <img
+                        src="/news.png"
+                        alt="news"
+                        className="object-cover"
+                      />
+                    </motion.div>
+                    <motion.div
+                      variants={fadeIn('right', 'tween', 0.2, 1)}
+                      className="flex-[0.95] flex justify-center flex-col"
+                    >
+                      <TitleText title={<>{news.newsTitle}</>} />
+                      <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+                        {newFeatures.map((feature) => (
+                          <NewFeatures key={feature.title} {...feature} />
+                        ))}
+                      </div>
+                    </motion.div>
+                  </motion.div>
+                  </>
+                );
+            })}
             </div>
-          </div>
           );
+            
           
           /*return (
             <>
