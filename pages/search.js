@@ -10,7 +10,7 @@ import React, { useEffect, useState } from 'react'
 import { useRouter } from "next/router";
 
 import { newFeatures } from '../constants';
-import { NewFeatures, TitleText, TypingText } from '../components';
+import { NewFeatures, TitleText, TypingText, StockTitleText } from '../components';
 import { planetVariants, fadeIn } from '../utils/motion';
 
 
@@ -60,8 +60,6 @@ const StockReport = () => {
 
     <motion.div
       variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
@@ -71,36 +69,40 @@ const StockReport = () => {
         <TypingText title="| 나만의 뉴스 추천" />
         <TitleText title={<>테마별 뉴스 📰</>} />
 
-        <div className="mt-[50px] flex flex-wrap lg:flex-column flex-column min-h-[70vh] gap-5">
+
         {wholeData.themeReasonList?.map((themeReason, i) => {
           return (
-          <div key={i} className="relative flex items-center justify-center w-full h-[300px] cursor-pointer">
-            <img
-              src="/news.png"
-              alt="news"
-              className="absolute w-full h-full object-cover rounded-[24px]"
-            />
-            <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-white rounded-b-[24px]">
-              <div className={`${styles.flexCenter} w-[60px] h-[70px] rounded-[24px] glassmorphism mb-[16px]`}>
+            <motion.div
+              variants={staggerContainer}
+              viewport={{ once: false, amount: 0.25 }}
+              className={`${styles.innerWidth} h-[200px] mx-auto flex lg:flex-row flex-col gap-8`}
+            >
+              <motion.div
+                variants={fadeIn('right', 'tween', 0.2, 1)}
+                className={`flex-1 ${styles.flexCenter}`}
+              >
                 <img
-                  src="/stocks.png"
-                  alt="stock"
-                  className="w-1/2 h-1/2 object-contain"
+                  src="/news.png"
+                  alt="news"
+                  className="object-cover"
                 />
-              </div>
-              <p className="font-normal text-[16px] leading-[2.16px] text-black uppercase">{themeReason.theme.themeName}</p>
-              <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-black">{themeReason.reason}</h2>
-            </div>
-          </div>
+              </motion.div>
+              <motion.div
+                variants={fadeIn('right', 'tween', 0.2, 1)}
+                className="flex-[0.95] flex justify-center flex-col"
+              >
+                <TitleText title={<>{themeReason.theme.themeName}</>} />
+                <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
+                  {newFeatures.map((feature) => (
+                    <NewFeatures key={feature.title} {...feature} />
+                  ))}
+                </div>
+              </motion.div>
+            </motion.div>
               );
             })}
-        </div>
-        
-        
-
-
-      </motion.div>
-    </motion.div>
+          </motion.div>
+        </motion.div>
   </section>
       
 
