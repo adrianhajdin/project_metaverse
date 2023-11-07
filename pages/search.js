@@ -71,7 +71,18 @@ const StockReport = () => {
 
 
         {wholeData.themeReasonList?.map((themeReason, i) => {
-          return (
+          return(
+            <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+            <div className="flex items-center justify-between flex-wrap gap-5">
+              <h4 className="font-bold md:text-[50px] text-[44px] text-black">
+                {<>{themeReason.theme.themeName}</>}
+              </h4>
+            </div>
+          </div>
+          );
+          
+          /*return (
+            <>
             <motion.div
               variants={staggerContainer}
               viewport={{ once: false, amount: 0.25 }}
@@ -99,7 +110,8 @@ const StockReport = () => {
                 </div>
               </motion.div>
             </motion.div>
-              );
+            </>
+              );*/
             })}
           </motion.div>
         </motion.div>
