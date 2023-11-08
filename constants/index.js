@@ -2,71 +2,51 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: '네이버',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: '삼성전자',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: '현대차',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: '카카오',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'LG에너지솔루션',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  '선호하는 기업을 선택해요',
+  '잠시만 기다려주시면',
+  '추천해드리는 기업의 정보를 보기 쉽게 확인할 수 있어요 🥳',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/eye.png',
+    title: '정보를 한 눈에',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        '최근 주식 동향부터 뉴스까지, 한 눈에 보여드려요',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/ai.png',
+    title: '양질의 정보를',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'chatGPT와 직접 개발한 기술을 활용하여 양질의 정보만 보여드려요',
   },
 ];
 
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
-];
 
 export const socials = [
   {

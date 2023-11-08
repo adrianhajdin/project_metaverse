@@ -9,6 +9,7 @@ import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
+    <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -20,8 +21,8 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| Whats new?" />
-        <TitleText title={<>What's new about Metaversus?</>} />
+        <TypingText title="| 간편함에 유용함까지" />
+        <TitleText title={<>왜 금요주식회를<br/> 활용해봐야 하냐고요?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
